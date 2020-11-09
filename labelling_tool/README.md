@@ -1,6 +1,6 @@
 Launch the tool by specifying the number of images you want to analyze and the directory where images are located
 
-```python label_images.py --dir /Users/robertocastello/deneb/labelling_tool/images_from_deneb --batch_size 5```
+```python label_images.py --dir path/to/images --batch_size 5```
 
 # Procedure: 
 
