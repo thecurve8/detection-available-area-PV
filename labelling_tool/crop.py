@@ -32,7 +32,7 @@ class Crop():
         self.y = y
         self.flags = flags
         self.parameters = parameters
-        CTRL_FLAG = 16 #this may vary on different OS/version of openCV
+        SHIFT_FLAG = 16 #this may vary on different OS/version of openCV
         
         #add point to polygon being built
         if self.event == cv2.EVENT_LBUTTONDOWN:
