@@ -18,9 +18,9 @@ left —> draw lines
 right —> close the polygon  
 central —> erase last non closed polygon  
 
-CTR + left —> draw lines of polygon to be extruded  
-CTR + right —> close the polygon to be extruded  
-CTR + central —> erase last non closed polygon to be extruded  
+SHIFT + left —> draw lines of polygon to be extruded  
+SHIFT + right —> close the polygon to be extruded  
+SHIFT + central —> erase last non closed polygon to be extruded  
 
 ## Normal polygons and extruded polygons
 Draw normal polygons around areas where PV can be installed. If a part of the selected area is not suitable for installing PV (e.g. superstructure on a roof), you can simply extrude it by drawing an extruded polygon around it.
