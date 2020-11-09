@@ -9,3 +9,5 @@
 *.zip
 *.tar
 *.png
+
+__pycache__/
