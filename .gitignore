@@ -1,0 +1,11 @@
+# MacOS
+*.DS_Store
+
+# Jupyter Notebook
+*-checkpoint.ipynb
+*.ipynb_checkpoints
+
+#images
+*.zip
+*.tar
+*.png
