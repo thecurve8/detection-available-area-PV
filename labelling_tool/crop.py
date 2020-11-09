@@ -71,7 +71,7 @@ class Crop():
     def do_crop(self):
 
         cv2.namedWindow("CROP", cv2.WINDOW_NORMAL) ## Magnifying the window for more precise labelling 
-        cv2.resizeWindow("CROP", 1000, 1000) ## 1250
+        cv2.resizeWindow("CROP", 800, 800) ## 1250
         cv2.setMouseCallback("CROP",self.crop_for_mouse)
         self.skip = False
 
