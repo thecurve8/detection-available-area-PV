@@ -36,7 +36,7 @@ class Crop():
         
         #add point to polygon being built
         if self.event == cv2.EVENT_LBUTTONDOWN:
-            if (CTRL_FLAG == (flags & CTRL_FLAG)):
+            if (SHIFT_FLAG == (flags & SHIFT_FLAG)):
                 self.lextpnts = np.append(self.lextpnts, np.array([[[self.x, self.y]]]), axis=1)
                 cv2.polylines(self.image, [self.lextpnts], False, (0, 0, 255))
             else:
@@ -45,7 +45,7 @@ class Crop():
         
         #add last point to polygon being built (close the polygon)
         elif self.event == cv2.EVENT_RBUTTONDOWN:
-            if (CTRL_FLAG == (flags & CTRL_FLAG)):
+            if (SHIFT_FLAG == (flags & SHIFT_FLAG)):
                 self.lextpnts = np.append(self.lextpnts, np.array([[[self.x, self.y]]]), axis=1)
                 cv2.polylines(self.image, [self.lextpnts], True, (0, 0, 255))
                 self.rextpnts.append(self.lextpnts)
@@ -60,7 +60,7 @@ class Crop():
         
         #erase polygon being built
         elif self.event == cv2.EVENT_MBUTTONDOWN: 
-            if (CTRL_FLAG == (flags & CTRL_FLAG)):
+            if (SHIFT_FLAG == (flags & SHIFT_FLAG)):
                 self.lextpnts = np.empty((1,0,2), dtype=np.int32)
                 self.image = self.copied_image.copy()
             else:

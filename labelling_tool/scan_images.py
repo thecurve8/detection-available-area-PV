@@ -33,12 +33,12 @@ outputdir2 = args['outdir2']
 PVout_dir2 = outputdir2 + '/PV'
 PVout_label_dir2 = outputdir2 + '/PV'+'/labels'
 
-## outputdir3                                                                                                                                                               
+## outputdir3
 outputdir3 = args['outdir3']
 PVout_dir3 = outputdir3 + '/PV'
 PVout_label_dir3 = outputdir3 + '/PV'+'/labels'
 
-## outputdir4                                                                                                                                                                
+## outputdir4
 outputdir4 = args['outdir4']
 PVout_dir4 = outputdir3 + '/PV'
 PVout_label_dir4 = outputdir3 + '/PV'+'/labels'
